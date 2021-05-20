@@ -152,3 +152,10 @@ chart.plot(y_pred, marker='o', color='blue', label='Actual')
 chart.plot(y_predict, marker='^', color='red', label='Predict')
 plt.legend(loc = 'best') 
 plt.show()
+
+# r2 :  -0.0026337129084286204
+# rmse :  3.8865406367491104
+# mae :  1.3827625581864293
+# mse :  15.10519812110218
+# [-0.0026337129084286204, 3.8865406367491104, 1.3827625581864293, 15.10519812110218]
+# 13029.220934초 걸렸습니다.
